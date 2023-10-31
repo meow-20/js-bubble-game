@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Gilroy';
+}
+
+main{
+    height: 100%;
+    width: 100%;
+}
+.bg{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(33, 104, 96);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board{
+    height: 75%;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 10px 10px 50px #323232;
+}
+.score-board{
+    height: 17%;
+    width: 100%;
+    background-color: rgb(31, 234, 200);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+}
+.score{
+    display: flex;
+    align-items: center;
+}
+.display{
+    height: 6vh;
+    width: 3vw;
+    padding: 10px;
+    margin-left: 12px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: rgb(5, 90, 62);
+    font-weight: 900;
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play-board{
+    height: 83%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}
+.play-board>h1{
+    font-size: 5vw;
+    color: black;
+}
+.bubble{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: lightgreen;
+    color: rgb(5, 90, 62);
+    font-size: 1.5vw;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(76, 124, 76);
+    color: #fff;
+}
